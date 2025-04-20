@@ -1,5 +1,38 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+	margin: 0;
+	height: 100vh;
+	background-color: #006400;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .card {
+	width: 250px;
+	height: 350px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+	font-family: 'Georgia', serif;
+	position: relative;
+  }
+  
+  .palo-arriba {
+	font-size: 6rem;
+  }
+  
+  .palo-abajo {
+	font-size: 6rem;
+  }
+  
+   
+  .number {
+	font-size: 5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
 
-body{
-    background: white;
-}
+  
